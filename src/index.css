@@ -5,6 +5,7 @@
   --color-green: rgba(141, 253, 27, 1);
   --color-grey: rgba(34, 34, 34, 1);
   --color-purple: rgba(66, 0, 106, 1);
+  --color-black: rgba(0, 0, 0, 1);
 }
 
 * {
@@ -12,6 +13,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'DM Mono', monospace;
+  border: none;
+  outline: none;
+  color: var(--color-white);
+}
+
+body {
+  overflow: hidden;
+  margin: auto;
+  max-width: 1440px;
+  background-color: var(--color-black);
 }
 
 ul {
