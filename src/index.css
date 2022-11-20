@@ -19,7 +19,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  box-sizing: content-box;
   margin: auto;
   max-width: 1440px;
   background-color: var(--color-black);

@@ -1,0 +1,39 @@
+.artists {
+	margin-top: 113px;
+}
+
+.artists .repeated-label {
+	margin-left: -190px;
+}
+
+.artists__introduction {
+	display: flex;
+	gap: 60px;
+	row-gap: 80px;
+	flex-wrap: wrap;
+	margin-left: 40px;
+	margin-top: 127px;
+}
+
+.artists__introduction__artist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.artists__introduction__artist__img {
+	width: 245px;
+	height: auto;
+}
+
+.artists__introduction__artist__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.artists__introduction__artist span {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+}

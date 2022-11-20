@@ -1,0 +1,11 @@
+.repeated-label {
+	display: flex;
+	align-items: center;
+}
+
+.repeated-label h1 {
+	text-transform: uppercase;
+	font-family: 'Audiowide';
+	font-size: 79px;
+	line-height: 88px;
+}
