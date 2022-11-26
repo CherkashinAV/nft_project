@@ -42,7 +42,7 @@ const Artists = () => {
 			{
 				artists.map((el) => {
 					return (
-						<div className="artists__introduction__artist">
+						<div key={el.name} className="artists__introduction__artist">
 							<div className="artists__introduction__artist__img" key={el.name}>
 								<img src={el.img} alt={el.name} />
 							</div>

@@ -3,6 +3,7 @@ import About from './sections/About/About';
 import Artists from './sections/Artists/Artists';
 import Collection from './sections/Collection/Collection';
 import Header from './sections/Header/Header';
+import Story from './sections/Story/Story';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Collection />
       <Artists />
+      <Story />
     </div>
   );
 }
