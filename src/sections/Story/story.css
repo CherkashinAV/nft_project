@@ -1,0 +1,23 @@
+.story {
+	margin-top: 258px;
+}
+
+.story h1 {
+	font-family: 'Audiowide';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 45px;
+	text-transform: uppercase;
+	margin-left: 439px;
+}
+
+.story h1 span {
+	font-family: 'Audiowide';
+	color: #A8A8A8;
+}
+
+.switch-banner {
+	margin-top: 61px;
+	margin-left: 40px;
+}

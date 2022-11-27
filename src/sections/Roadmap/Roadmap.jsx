@@ -3,7 +3,9 @@ import './roadmap.css'
 
 const Roadmap = () => {
   return (
-	 <div>Roadmap</div>
+    <div className='roadmap'>
+      
+    </div>
   )
 }
 

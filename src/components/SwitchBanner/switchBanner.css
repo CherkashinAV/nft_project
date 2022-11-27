@@ -1,0 +1,84 @@
+.banner {
+	width: 878px;
+	display: flex;
+	padding: 60px;
+	background-color: var(--color-grey);
+}
+
+.banner__img {
+  width: 172px;
+}
+
+.banner__img img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.banner__content__label {
+  margin-left: 38px;
+  border-left: 2px solid var(--color-green);
+  margin-top: 10px;
+}
+
+.banner__content__label p {
+	font-size: 21px;
+	line-height: 32px;
+	color: var(--color-green);
+	margin-left: 22px;
+	width: 494px;
+	height: 96px;
+}
+
+.banner__content__text {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.banner__content__text p {
+	display: block;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	width: 522px;
+	margin-left: 40px;
+}
+
+.banner__content__text:first-child {
+	width: 529px;
+}
+
+.switch-banner {
+	display: flex;
+	height: 540px;
+}
+
+.switch-banner__headers {
+	display: flex;
+	flex-direction: column;
+	width: 282px;
+	font-size: 16px;
+	line-height: 16px;
+	cursor: pointer;
+}
+
+.switch-banner__headers div{
+	padding: 25px 0px 31px 28px;
+	width: 282px;
+}
+
+.switch-banner__headers div.active {
+	background-color: var(--color-grey);
+	color: var(--color-green);
+	transition: all 0.4s;
+}

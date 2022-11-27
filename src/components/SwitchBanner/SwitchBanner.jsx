@@ -1,4 +1,4 @@
-import React, { createRef, useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './switchBanner.css'
 
 const Banner = ({label, text, img}) => {
@@ -9,7 +9,7 @@ const Banner = ({label, text, img}) => {
 			</div>
 			<div className="banner__content">
 				<div className="banner__content__label">
-					{label}
+					<p>{label}</p>
 				</div>
 				<div className="banner__content__text">
 					{text.map((el, index) => <p key={index}>{el}</p>)}
@@ -37,7 +37,7 @@ const SwitchBanner = ({items}) => {
 
 	return (
 		<div className='switch-banner'>
-			<div className="banner__headers" ref={headersRef}>
+			<div className="switch-banner__headers" ref={headersRef}>
 				{items.map((el, index) => 
 					<div 
 					className={index === 0 ? 'active' : ''}
