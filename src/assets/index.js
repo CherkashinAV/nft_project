@@ -19,5 +19,7 @@ import team2 from './team2.jpg'
 import team3 from './team3.jpg'
 import guitarGirl from './guitar_girl.jpg'
 import founders from './founders.jpg'
+import circles from './circles.svg'
+import linkedIn from './in.png'
 
-export {artist1, artist2, artist3, artist4, artist5, artist6, artist7, blueNft, redNft, NFTs, discord, twitter, telegram, youtube, logo, logoholder, team1, team2, team3, guitarGirl, founders}
+export {artist1, artist2, artist3, artist4, artist5, artist6, artist7, blueNft, redNft, NFTs, discord, twitter, telegram, youtube, logo, logoholder, team1, team2, team3, guitarGirl, founders, circles, linkedIn}
